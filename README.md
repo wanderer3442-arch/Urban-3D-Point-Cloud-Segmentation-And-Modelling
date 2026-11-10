@@ -1,7 +1,7 @@
 # Toronto-3D + Paris-Lille-3D PointNet++ Semantic Segmentation
 
 <p align="center">
-  <img src="assets/gallery_preview.png" alt="Project Gallery Preview" width="800"/>
+  <img src="assets/gallery_preview.png" alt="Project Gallery Preview" width="600"/>
 </p>
 
 A notebook-first deep-learning project for semantic segmentation of large urban point clouds. The main implementation is a GPU-oriented PointNet++-style training, evaluation, and visualization notebook. Raw point-cloud datasets are intentionally not included in this repository package.
@@ -63,37 +63,25 @@ The notebook is the project implementation; this package does not contain a sepa
 ### Toronto-3D (L002) — Prediction Gallery
 
 <p align="center">
-  <img src="assets/gallery_toronto.png" alt="Toronto-3D L002 Predictions" width="800"/>
+  <img src="assets/gallery_toronto.png" alt="Toronto-3D L002 Predictions" width="600"/>
 </p>
 
 ### Paris-Lille-3D (Lille2) — Prediction Gallery
 
 <p align="center">
-  <img src="assets/gallery_paris_lille.png" alt="Paris-Lille-3D Lille2 Predictions" width="800"/>
-</p>
-
-### Multi-View Side Comparisons
-
-<p align="center">
-  <img src="assets/side_views.png" alt="Side View Comparisons" width="800"/>
-</p>
-
-### Dense Prediction View (L002)
-
-<p align="center">
-  <img src="assets/dense_L002.png" alt="Dense L002 Prediction" width="800"/>
+  <img src="assets/gallery_paris_lille.png" alt="Paris-Lille-3D Lille2 Predictions" width="600"/>
 </p>
 
 ### 3D Orbit Visualizations
 
 | Toronto-3D L002 | Paris-Lille-3D Lille2 |
 |:---:|:---:|
-| <img src="assets/threed_orbit_L002.png" alt="L002 3D Orbit" width="380"/> | <img src="assets/threed_orbit_Lille2.png" alt="Lille2 3D Orbit" width="380"/> |
+| <img src="assets/threed_orbit_L002.png" alt="L002 3D Orbit" width="300"/> | <img src="assets/threed_orbit_Lille2.png" alt="Lille2 3D Orbit" width="300"/> |
 
 ### 3D Spin Animation (L002)
 
 <p align="center">
-  <img src="assets/threed_spin_L002.gif" alt="L002 3D Spin Animation" width="600"/>
+  <img src="assets/threed_spin_L002.gif" alt="L002 3D Spin Animation" width="500"/>
 </p>
 
 ---
@@ -105,32 +93,22 @@ The notebook is the project implementation; this package does not contain a sepa
 The model was tested on SensatUrban Birmingham data as a cross-dataset experiment (no fine-tuning).
 
 <p align="center">
-  <img src="assets/birmingham_orthophoto.png" alt="Birmingham Orthophoto" width="800"/>
+  <img src="assets/birmingham_orthophoto.png" alt="Birmingham Orthophoto" width="600"/>
 </p>
 
 <p align="center">
-  <img src="assets/birmingham_class_map.png" alt="Birmingham Class Map Prediction" width="800"/>
+  <img src="assets/birmingham_class_map.png" alt="Birmingham Class Map Prediction" width="600"/>
 </p>
 
 <p align="center">
-  <img src="assets/birmingham_turntable.gif" alt="Birmingham 3D Turntable" width="600"/>
+  <img src="assets/birmingham_turntable.gif" alt="Birmingham 3D Turntable" width="500"/>
 </p>
 
 <p align="center">
-  <img src="assets/birmingham_contact_sheet.png" alt="Birmingham Contact Sheet" width="800"/>
+  <img src="assets/birmingham_contact_sheet.png" alt="Birmingham Contact Sheet" width="600"/>
 </p>
 
 > **Note**: No verified Birmingham accuracy is reported; this is a qualitative cross-dataset experiment only.
-
----
-
-## 📈 Training Curves
-
-<p align="center">
-  <img src="assets/training_curves.png" alt="Training Curves" width="800"/>
-</p>
-
-*Training loss, validation loss, validation mIoU, and validation overall accuracy over 63 epochs.*
 
 ---
 
@@ -147,16 +125,13 @@ The model was tested on SensatUrban Birmingham data as a cross-dataset experimen
 │   ├── gallery_preview.png
 │   ├── gallery_toronto.png
 │   ├── gallery_paris_lille.png
-│   ├── side_views.png
-│   ├── dense_L002.png
 │   ├── threed_orbit_L002.png
 │   ├── threed_orbit_Lille2.png
 │   ├── threed_spin_L002.gif
 │   ├── birmingham_orthophoto.png
 │   ├── birmingham_class_map.png
 │   ├── birmingham_turntable.gif
-│   ├── birmingham_contact_sheet.png
-│   └── training_curves.png
+│   └── birmingham_contact_sheet.png
 └── results/
     ├── eval_report.json
     └── training_history.json
