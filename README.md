@@ -1,4 +1,4 @@
-# Toronto-3D + Paris-Lille-3D PointNet++ Semantic Segmentation
+# Urban 3D Point Cloud Segmentation
 
 <p align="center">
   <img src="assets/gallery_preview.png" alt="Project Gallery Preview" width="600"/>
