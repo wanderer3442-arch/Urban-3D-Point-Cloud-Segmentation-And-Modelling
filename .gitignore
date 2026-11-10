@@ -1,0 +1,34 @@
+# External datasets (configure POINTNET_DATA_DIR to keep them outside this folder)
+/Toronto_3D/
+/training_10_classes/
+/test_10_classes/
+/Birmingham_3D/
+/Birmingham_Mesh_Photos/
+/Paris_Luxembourg_6.ply
+/datasets/
+
+# Generated notebook outputs
+/data/outputs/
+
+# Large source/export/checkpoint files
+*.ply
+*.pth
+*.pt
+*.npy
+*.npz
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local settings and OS files
+.env
+*.local
+.DS_Store
+Thumbs.db

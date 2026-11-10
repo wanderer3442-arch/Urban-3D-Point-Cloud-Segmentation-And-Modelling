@@ -1,0 +1,11 @@
+# Install PyTorch separately using the selector in README.md so the build
+# matches the local CPU/CUDA environment.
+numpy
+matplotlib
+pandas
+scipy
+plyfile
+Pillow
+open3d
+plotly
+jupyter
